@@ -445,6 +445,11 @@ After displaying the Exam Transcript in chat, offer the option to save it as a m
 8. **Official sources** — Base all questions on real AWS service capabilities. Use the AWS Documentation MCP server to verify service features before including them in questions. Do NOT invent service features.
 9. **No code** — Questions should never require reading or writing code. They test architectural decision-making, not implementation.
 10. **Exam scope** — Only generate questions about services and topics that are in scope for the active exam. Use the Exam Context and the official exam guide to determine scope.
+11. **Correct-answer position balance** — The position of the correct answer(s) must be balanced across the whole session, not just within one question type:
+   - Track which letters have held a correct answer across ALL questions asked so far in the session, regardless of question type (multiple choice, select two, select three).
+   - Occasional repeats of the same correct-answer letter across consecutive questions are fine — this happens naturally with balanced placement. What must NOT happen is a letter being favored session-wide (e.g., far more questions landing on B than on A, C, or D).
+   - Over the course of the session, distribute correct answers as evenly as possible across the available letters (A-D for multiple choice and select-two; A-F for select-three) — no letter should be favored.
+   - The position of the correct answer(s) must be independent of any property of the question or option (e.g., never always the most detailed option, never always the last option). Determine placement by balance/rotation, not by content.
 
 ## Important Notes
 
